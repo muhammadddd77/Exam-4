@@ -709,6 +709,9 @@
   .rounded-\[4px\] {
     border-radius: 4px;
   }
+  .rounded-\[5px\] {
+    border-radius: 5px;
+  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -901,6 +904,9 @@
   }
   .object-cover {
     object-fit: cover;
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -1194,6 +1200,9 @@
   .text-\[\#8a969d\] {
     color: #8a969d;
   }
+  .text-\[\#8b949a\] {
+    color: #8b949a;
+  }
   .text-\[\#285b7a\] {
     color: #285b7a;
   }
@@ -1266,8 +1275,14 @@
   .text-\[\#557783\] {
     color: #557783;
   }
+  .text-\[\#667078\] {
+    color: #667078;
+  }
   .text-\[\#e5e5e5\] {
     color: #e5e5e5;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-blue-100 {
     color: var(--color-blue-100);
@@ -1518,6 +1533,9 @@
     .lg\:flex {
       display: flex;
     }
+    .lg\:grid {
+      display: grid;
+    }
     .lg\:hidden {
       display: none;
     }
@@ -1529,6 +1547,9 @@
     }
     .lg\:h-\[5px\] {
       height: 5px;
+    }
+    .lg\:h-\[8px\] {
+      height: 8px;
     }
     .lg\:h-\[52px\] {
       height: 52px;
@@ -1589,6 +1610,9 @@
     }
     .lg\:min-h-\[165px\] {
       min-height: 165px;
+    }
+    .lg\:min-h-\[260px\] {
+      min-height: 260px;
     }
     .lg\:min-h-\[310px\] {
       min-height: 310px;
@@ -1755,6 +1779,9 @@
     .lg\:overflow-visible {
       overflow: visible;
     }
+    .lg\:p-4 {
+      padding: calc(var(--spacing) * 4);
+    }
     .lg\:px-0 {
       padding-inline: 0px;
     }
@@ -1803,8 +1830,17 @@
     .lg\:text-left {
       text-align: left;
     }
+    .lg\:text-\[2px\] {
+      font-size: 2px;
+    }
     .lg\:text-\[8px\] {
       font-size: 8px;
+    }
+    .lg\:text-\[9px\] {
+      font-size: 9px;
+    }
+    .lg\:text-\[10px\] {
+      font-size: 10px;
     }
     .lg\:text-\[11px\] {
       font-size: 11px;
@@ -1839,6 +1875,9 @@
     .lg\:text-\[24px\] {
       font-size: 24px;
     }
+    .lg\:text-\[25px\] {
+      font-size: 25px;
+    }
     .lg\:text-\[26px\] {
       font-size: 26px;
     }
@@ -1857,6 +1896,9 @@
     .lg\:leading-tight {
       --tw-leading: var(--leading-tight);
       line-height: var(--leading-tight);
+    }
+    .lg\:text-\[px\] {
+      color: px;
     }
   }
 }
